@@ -14,3 +14,83 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.letter-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  background-color: white;
+  text-align: center;
+}
+
+.descriptionContainer {
+  background-color: #031c23;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 5% 25%
+}
+
+.image {
+  position: center;
+  max-width: 90%;
+}
+
+h1 {
+  font-family: intro-inline;
+  font-size: 70px;
+  text-align: center;
+}
+
+p a {
+  line-height: 1.5rem;
+}
+
+.glossaire-container {
+  background-color: #031c23;
+  color: white;
+  width: 100%;
+  padding: 5% 15%;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 0
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.letter-list {
+  display: flex;
+  width: 33%;
+}
+
+.glossaire-description {
+  text-align: center;
+  font-size: 20px;
+  font-family: "proxima-nova";
+}
+
+.head-glossaire {
+  padding: 3% 30%;
+}
+
+.description {
+  line-height: 2rem;
+  font-size: 20px;
+  padding: 5% 8%;
+}

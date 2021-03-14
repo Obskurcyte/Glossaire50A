@@ -1,10 +1,12 @@
 import PageType from "../components/PageType";
-
-function FirstPartyData () {
+import React from 'react'
+function EyeTracking () {
     return (
         <div>
             <PageType
                 title="EYE TRACKING"
+                title2="Eye Tracking"
+                content="Une définition de Eye Tracking"
                 image="https://www.50a.fr/img/upload/eye-traking.jpg"
                 description="L’Eye tracking ou “Oculométrie” désigne les techniques d’études du regard ou comportement oculaire. Il sert notamment lors de la détermination des « Zones Froides ».
 
@@ -14,4 +16,4 @@ Il mesure le temps de fixation du regard d’un individu sur une annonce publici
     )
 }
 
-export default FirstPartyData;
+export default EyeTracking;

@@ -120,3 +120,14 @@
     flex-direction: column;
   }
 }
+
+.letter-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+
+}
